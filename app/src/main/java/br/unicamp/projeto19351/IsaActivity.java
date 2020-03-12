@@ -19,5 +19,7 @@ public class IsaActivity extends AppCompatActivity {
 
         tvIsa = findViewById(R.id.tvIsa);
         tvIsa.setText("oi");
+
+
     }
 }

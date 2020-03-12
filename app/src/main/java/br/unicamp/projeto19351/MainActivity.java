@@ -31,16 +31,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
-                    case 0: goIsa();
+                    case 0: goLucas();
                     break;
 
-                    case 1: goLucas();
+                    case 1: goIsa();
                     break;
 
-                    case 2: goArruda();
+                    case 2: goNouani();
                     break;
 
-                    case 3: goNouani();
+                    case 3: goArruda();
                     break;
 
                     case 4: goNicholas();
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         adicionaMonitor.add(gerarMonitor("Isabela Paulino", "19351", "terca", R.drawable.isa ));
         adicionaMonitor.add(gerarMonitor("Nouani Sanches", "19351", "quarta", R.drawable.nouani ));
         adicionaMonitor.add(gerarMonitor("Gabriel Arruda", "19351", "quinta", R.drawable.arruda ));
-        adicionaMonitor.add(gerarMonitor("Nicholas Arruda", "19351", "sexta", R.drawable.oi ));
+        adicionaMonitor.add(gerarMonitor("Nicholas Duarte", "19351", "sexta", R.drawable.nicolas ));
 
         return adicionaMonitor;
     }

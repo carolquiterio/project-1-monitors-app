@@ -40,6 +40,8 @@ public class Monitor {
         this.horario = horario;
     }
 
+   // public Integer getUmaImagem(int imagem) { return this.imagem }
+
     @NonNull
     @Override
     public String toString() {
