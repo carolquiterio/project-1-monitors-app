@@ -17,8 +17,8 @@ public class IsaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isa);
 
-        tvIsa = findViewById(R.id.tvIsa);
-        tvIsa.setText("oi");
+        //tvIsa = findViewById(R.id.tvIsa);
+       // tvIsa.setText("oi");
 
 
     }
